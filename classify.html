@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIFOODIE</title>
+  <meta name="description" content="Tay's beta version Website Portfolio">
+  <meta name="author" content="Tay">
+  <script src="https://kit.fontawesome.com/8cc10ba7fd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="icon" type="image/png" href="imgs/ice.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_c.css">
+  <script src="main.js" defer></script>
+  <script src="main_c.js" defer></script>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <a href="index.html"><i class="fas fa-ice-cream"></i> AIFOODIE</a>
+    </div>
+      <ul class="navbar__menu">
+        <a href="index.html"><li class="navbar__menu__item active">Home</li></a>
+      </ul>
+
+    <!-- Toggle button-->
+    <button class="navbar__toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Classifier -->
+  <section id="classifier" class="section">
+    <div class="container">
+      <h1>
+        </br>Let's Classify Food Image!
+      </h1>        
+      <h2>음식 이미지만 업로드 해주세요🍦</h2>
+
+      <form method="post" action="#" name="ImageUpload">
+        <div class="avatar-upload">
+            <form action="">
+              <div class="avatar-edit">
+                  <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg" />
+                  <label for="imageUpload"></label>
+              </div>
+              <div class="avatar-preview" onclick="imageUpload.click();">
+                <img class="file-upload-image" id="profile-image" src="#" alt="your image" style="display: none;"/>
+                  <div id="imagePreview" style="background-image: url(imgs/bono.jpg);"></div>
+              </div>
+          </div>
+
+          <button type="button" class="btn_upload" onclick="imageUpload.click();">
+            🔍 Upload
+          </button>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact-->
+  <section id="contact" class="section">
+    <h1 class="contact__title">Contact</h1>
+    <a href="https://github.com/Development-On-Saturday"><h2 class="contact__email">https://github.com/Development-On-Saturday</h2></a>
+      <a href="https://github.com/Development-On-Saturday" target="_blank" class="contact__link">
+        <i class="fa fa-github"></i>
+      </a>
+    </div>
+    <p class="contact__rights">
+      Copyright ⓒ 2020 AIFFEL_FOODIE. All rights reserved.
+    </p>
+</section>
+
+</body>
+</html>
+
