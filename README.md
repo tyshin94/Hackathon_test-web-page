@@ -1,5 +1,5 @@
 # MODULABS_AIFFEL Final Hackathon
-``Topic: FOOD image classification, detection and MLOPs publishing project plan``
+```Topic: FOOD image classification, detection and MLOPs publishing project plan```
 ## Portfolio
 
 
