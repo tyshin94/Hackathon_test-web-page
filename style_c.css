@@ -125,6 +125,33 @@
   background-color: var(--color-light-red);
 }
 
+.image__box {
+  background-color: var(--color-orange);
+  max-width: 400px;
+  height: 400px;
+  margin: 50px auto;
+}
+
+/* 삭제 가능 */
+.image__text {
+  color: var(--color-black);
+  font-weight: var(--weight-semi-bold);
+  text-align: center;
+  line-height: 80px;
+  font-size: var(--font-regular);
+}
+
+.result__container {
+  background-color: var(--color-white);
+}
+
+.result__description {
+  text-align: left;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  padding-bottom: 20px;
+}
+
 /* ---------- For below 768px screen width ---------- */
 @media screen and (max-width: 768px) {
   :root {

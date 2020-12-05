@@ -38,30 +38,32 @@
   <section id="classifier" class="section">
     <div class="container">
       <h1>
-        </br>Let's Classify Food Image!
-      </h1>        
-      <h2>음식 이미지만 업로드 해주세요🍦</h2>
-
-      <form method="post" action="#" name="ImageUpload">
-        <div class="avatar-upload">
-          <div class="avatar-edit">
-              <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg" />
-              <label for="imageUpload"></label>
-          </div>
-          <div class="avatar-preview" onclick="imageUpload.click();">
-            <img class="file-upload-image" id="profile-image" src="#" alt="your image" style="display: none;"/>
-              <div id="imagePreview" style="background-image: url(imgs/bono.jpg);"></div>
-          </div>
-        </div>
-        
-        <button type="button" class="btn_upload" onclick="imageUpload.click();">
-          🔍 Upload
-        </button>
-        <br/>
-        <input type="submit" class="btn_upload" value="Submit">
-      </form>
+        </br>Food Claasification Visualization
+      </h1> 
+      <h2> Models Result📊</h2>
     </div>
-  </section>
+  </section>  
+
+    <br/>
+
+    <div class=result__container>   
+      <h3 class="result__description">Grad Cam</h3>
+      <div class="grad__image">
+        <a href=""><img src="models/exam.jpg" alt=""></a>
+        <a href=""><img src="models/exam.jpg" alt=""></a>
+        <a href=""><img src="models/exam.jpg" alt=""></a>
+        <a href=""><img src="models/exam.jpg" alt=""></a>
+      </div>
+      
+      <h3 class="result__description">T-SNE</h3>
+      <div class="grad__image">
+        <a href=""><img src="models/exam2.png" alt=""></a>
+        <a href=""><img src="models/exam2.png" alt=""></a>
+        <a href=""><img src="models/exam2.png" alt=""></a>
+        <a href=""><img src="models/exam2.png" alt=""></a>
+      </div>
+    </div> 
+
 
   <!-- Contact-->
   <section id="contact" class="section">
@@ -75,7 +77,6 @@
       Copyright ⓒ 2020 AIFFEL_FOODIE. All rights reserved.
     </p>
 </section>
-
 </body>
 </html>
 
