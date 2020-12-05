@@ -120,19 +120,9 @@
 }
 
 .image__box {
-  background-color: var(--color-orange);
   max-width: 400px;
   height: 400px;
   margin: 50px auto;
-}
-
-/* 삭제 가능 */
-.image__text {
-  color: var(--color-black);
-  font-weight: var(--weight-semi-bold);
-  text-align: center;
-  line-height: 80px;
-  font-size: var(--font-regular);
 }
 
 .result__container {
@@ -141,6 +131,7 @@
   margin: auto;
   padding: 30px;
 }
+
 .models__images {
   margin-bottom: 100px;
   display: flex;
