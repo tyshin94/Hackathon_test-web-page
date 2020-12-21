@@ -1,7 +1,6 @@
 # 🏫MODULABS_AIFFEL Final Hackathon
 **📌Topic: FOOD image classification, detection and MLOps publishing project plan**
 <br/>
-**📃Web page: https://tyshin94.github.io/Hackathon_Web/**
 
 <br/>
 
